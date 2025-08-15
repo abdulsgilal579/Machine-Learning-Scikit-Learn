@@ -28,6 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # )
 # plt.show()
 
+
 knn.fit(X_train, y_train)
 # X_new = np.array([[5,2.9,1,0.2]])
 # predictions = knn.predict(X_new)
